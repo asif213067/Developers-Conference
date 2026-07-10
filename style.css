@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+/* Navbar Styles */
+.navbar-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+    gap: 320px;
+    /* background-color: #575757; */
+}
+
+.navbar-parent .nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+    color: #575757;
+}
+
+.navbar-parent button {
+    background-color: #1D4ED8;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.navbar-parent button:hover {
+    background-color: #6184e5;
+}
+
+
+/* Header Styles */
