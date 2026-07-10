@@ -1,46 +1,88 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
 }
 
 .container {
-    max-width: 1200px;
-    margin: auto;
+  max-width: 1200px;
+  margin: auto;
 }
-
 
 /* Navbar Styles */
 .navbar-parent {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 16px 0;
-    gap: 320px;
-    /* background-color: #575757; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+  gap: 280px;
 }
 
 .navbar-parent .nav-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    gap: 20px;
-    color: #575757;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  gap: 20px;
+  color: #575757;
 }
 
 .navbar-parent button {
-    background-color: #1D4ED8;
-    border: none;
-    border-radius: 5px;
-    padding: 8px 16px;
-    cursor: pointer;
-    color: #fff;
+  background-color: #1d4ed8;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 14px;
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
 }
 
 .navbar-parent button:hover {
-    background-color: #6184e5;
+  background-color: #6184e5;
 }
 
-
 /* Header Styles */
+.banner {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./assets/banner.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.header-content {
+    text-align: center;
+    color: #fff;
+    max-width: 600px;
+}
+
+.header-content h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.header-content p {
+    font-size: 13px;
+}
+
+.header-content button {
+  background-color: #1d4ed8;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 24px;
+  cursor: pointer;
+  color: #fff;
+  margin-top: 240px;
+  font-weight: bold;
+}
+
+.header-content button:hover {
+  background-color: #6184e5;
+}
