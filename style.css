@@ -95,7 +95,7 @@
 .speaker h2 {
   margin: 30px 0;
   text-align: center;
-  font-size: 40px;
+  font-size: 33px;
 }
 
 .speaker-content {
@@ -155,7 +155,6 @@
 
 .spot-content h3 {
   padding-bottom: 12px;
-  font-size: 25px;
   font-size: 30px;
 }
 
@@ -373,4 +372,45 @@
     margin-top: 15px;
     color: #888888;
     line-height: 1.8;
+}
+
+
+/* footer style  */
+
+footer {
+  background-color: #0D1B2A;
+}
+
+footer p {
+  color: #888888;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+footer hr {
+  margin: 20px 25px 10px 25px;
+}
+
+footer hr::marker {
+  color: #888888;
+}
+
+footer .logo-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0 10px 0;
+}
+
+.social-media a {
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.social-media a i {
+  color: #e5e7eb;
+}
+
+.social-media a i:hover {
+  color: #1d4ed8;
 }
