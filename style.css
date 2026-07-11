@@ -58,18 +58,18 @@
 }
 
 .header-content {
-    text-align: center;
-    color: #fff;
-    max-width: 600px;
+  text-align: center;
+  color: #fff;
+  max-width: 600px;
 }
 
 .header-content h1 {
-    font-size: 50px;
-    margin-bottom: 10px;
+  font-size: 50px;
+  margin-bottom: 10px;
 }
 
 .header-content p {
-    font-size: 13px;
+  font-size: 13px;
 }
 
 .header-content button {
@@ -87,13 +87,12 @@
   background-color: #6184e5;
 }
 
-
 /* Speaker Styles  */
 .speaker {
   padding: 40px 0;
 }
 
-.speaker h2{
+.speaker h2 {
   margin: 30px 0;
   text-align: center;
 }
@@ -102,11 +101,10 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
-
 }
 
 .speaker-content-box {
-  border: 1px solid #E5E7EB;
+  border: 1px solid #e5e7eb;
   border-radius: 10px;
   overflow: hidden;
 }
@@ -120,7 +118,7 @@
 }
 
 .speaker-content-box .category {
-  color: #2563EB;
+  color: #2563eb;
   font-weight: 600;
   font-size: 12px;
   padding-bottom: 10px;
@@ -128,7 +126,7 @@
 }
 
 .speaker-content-box h4 {
-  font-size: 20px;
+  font-size: 18px;
   padding-bottom: 10px;
   padding-left: 20px;
 }
@@ -139,4 +137,164 @@
   padding-bottom: 10px;
   padding-left: 20px;
   padding-bottom: 20px;
+}
+
+/* Secure Your Spot */
+
+.spot {
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+.spot-content {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 35px;
+}
+
+.spot-content h3 {
+  padding-bottom: 12px;
+  font-size: 25px;
+}
+
+.spot-content p {
+  color: #575757;
+}
+
+.spot-card-parent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 0 80px;
+}
+
+.spot-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+}
+
+.spot-card .pricing {
+  padding: 20px;
+}
+
+.pricing .package {
+  margin-bottom: 5px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #888888;
+}
+
+.pricing h3 {
+  font-size: 25px;
+}
+
+.pricing .attendance {
+  font-size: 13px;
+  color: #888888;
+}
+
+.spot-card hr {
+  margin: 0px 20px 10px 20px;
+  background-color: #888888;
+}
+
+.spot-card ul {
+  list-style-position: inside;
+}
+
+.spot-card ul li {
+  color: #333333;
+  padding: 8px 20px;
+  font-size: 14px;
+}
+
+.spot-card ul li::marker {
+  color: #2563eb;
+}
+
+.spot-card button {
+  width: 88%;
+  margin: 10px 20px 30px 20px;
+  padding: 16px;
+  border: 1px solid #2563eb;
+  border-radius: 10px;
+  background: white;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  color: #2563eb;
+  font-weight: 500;
+}
+
+.spot-card button:hover {
+  background: #2563eb;
+  color: white;
+}
+
+
+/* pro card style */
+.spot-card-pro {
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  background-color: #0D1B2A;
+}
+
+.spot-card-pro .pricing-pro {
+  padding: 20px;
+}
+
+.pricing-pro .package-pro {
+  margin-bottom: 5px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #2563eb;
+}
+
+.pricing-pro h3 {
+  font-size: 25px;
+  color: #fff;
+}
+
+.pricing-pro .attendance-pro {
+  font-size: 13px;
+  color: #888888;
+}
+
+.spot-card-pro hr {
+  margin: 0px 20px 10px 20px;
+  border: 0;
+  border-top: 0.5px solid #8b8b8b;
+
+}
+
+.spot-card-pro ul {
+  list-style-position: inside;
+}
+
+.spot-card-pro ul li {
+  color: #8b8b8b;
+  padding: 8px 20px;
+  font-size: 14px;
+}
+
+.spot-card-pro ul li::marker {
+  color: #2563eb;
+}
+
+.spot-card-pro button {
+  width: 88%;
+  margin: 10px 20px 30px 20px;
+  padding: 16px;
+  border: 1px solid #2563eb;
+  border-radius: 10px;
+  background: #2563eb;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.spot-card-pro button:hover {
+  background: white;
+  color: #2563eb;
 }
