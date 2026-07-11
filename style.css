@@ -95,6 +95,7 @@
 .speaker h2 {
   margin: 30px 0;
   text-align: center;
+  font-size: 40px;
 }
 
 .speaker-content {
@@ -155,6 +156,7 @@
 .spot-content h3 {
   padding-bottom: 12px;
   font-size: 25px;
+  font-size: 30px;
 }
 
 .spot-content p {
@@ -297,4 +299,78 @@
 .spot-card-pro button:hover {
   background: white;
   color: #2563eb;
+}
+
+
+/* FAQ Section */
+
+.faq {
+    width: 70%;
+    max-width: 1000px;
+    margin: 50px auto;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.section-description {
+    text-align: center;
+    color: #575757;
+    margin-bottom: 50px;
+    line-height: 1.7;
+}
+
+.faq-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.faq-container details {
+    border: 1px solid #E5E7EB;
+    border-radius: 10px;
+    padding: 20px;
+    background: #ffffff;
+    transition: .3s;
+}
+
+.faq-container details:hover {
+    border-color: #4F46E5;
+    box-shadow: 0 10px 25px rgba(0,0,0,.08);
+}
+
+.faq-container summary {
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    list-style: none;
+    position: relative;
+    padding-right: 30px;
+}
+
+.faq-container summary::-webkit-details-marker {
+    display: none;
+}
+
+.faq-container summary::after {
+    content: "+";
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 28px;
+    color: #4F46E5;
+    transition: .3s;
+}
+
+.faq-container details[open] summary::after {
+    content: "−";
+}
+
+.faq-container details p {
+    margin-top: 15px;
+    color: #888888;
+    line-height: 1.8;
 }

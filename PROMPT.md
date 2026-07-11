@@ -1,0 +1,3 @@
+The prompt of FAQ section:
+
+today I am creating a website landing page . The website landing page theme is Developer Conference 2026. There are a few sections. Like a navigation bar ,  a banner, then meet the speakers. In meet the speaker, we have a grid, and in the grid we have the speakers and their  details with picture. And then, secure your set section, this section have three cards and where I list the price and the cards details. Now I want a FAQ section for my landing page. Please create FAQ section with HTML and CSS. In this FAQ section, add some question related to  web engineer or web development with answer, and use latest functionalities.
